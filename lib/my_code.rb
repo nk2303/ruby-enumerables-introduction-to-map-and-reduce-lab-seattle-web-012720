@@ -1,7 +1,7 @@
 # My Code here....
 def map_to_negativize(source_array)
   source_array.length.times do |item|
-    
+    source_array[item]*(-1)
   end
   return source_array
 end
