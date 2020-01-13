@@ -26,6 +26,10 @@ end
 
   
 def reduce_to_total(source_array, starting_point)
+  
+  source_array.length.times do |item|
+    source_array[item] = source_array[item]**2
+  end
   return source_array
 end
 
