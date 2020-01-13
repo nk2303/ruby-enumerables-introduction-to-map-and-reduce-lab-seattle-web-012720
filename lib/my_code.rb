@@ -30,7 +30,7 @@ def reduce_to_total(source_array, starting_point)
   source_array.length.times do |item|
     total += source_array[item]
   end
-  return source_array
+  return total
 end
 
 def reduce_to_all_true(source_array)
